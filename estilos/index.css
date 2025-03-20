@@ -81,3 +81,15 @@ p {
     color: lightblue; 
     transform: scale(1.2); 
 }
+
+.rss-icon .fa-rss {
+    color: orange; /* Color típico de RSS */
+    font-size: 30px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.rss-icon .fa-rss:hover {
+    color: darkorange;
+    transform: scale(1.2);
+}
+
