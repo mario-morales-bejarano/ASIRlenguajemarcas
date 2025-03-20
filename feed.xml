@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Portfolio de Mario Morales</title>
+    <link>https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/</link>
+    <description>Canal de noticias sobre mis estudios y proyectos en ASIR</description>
+    <category>educación/tecnología/desarrollo</category>
+    <copyright>1º ASIR - LMSGI</copyright>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 20 Mar 2024 12:15:00 +0100</lastBuildDate>
+    <webMaster>mobema_aliema24@iesmedinaazahara.es</webMaster>
+
+    <item>
+      <title>Fundamentos del Hardware</title>
+      <description>Sección dedicada a los conceptos básicos de hardware en ASIR.</description>
+      <link>https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/fundamentos_del_hardware.html</link>
+      <author>mobema_aliema24@iesmedinaazahara.es</author>
+      <category>hardware</category>
+      <pubDate>Wed, 20 Mar 2024 12:30:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Redes</title>
+      <description>Información sobre redes de computadoras, protocolos y configuración.</description>
+      <link>https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/redes.html</link>
+      <author>mobema_aliema24@iesmedinaazahara.es</author>
+      <category>redes</category>
+      <pubDate>Wed, 20 Mar 2024 12:35:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Base de Datos</title>
+      <description>Conceptos fundamentales sobre bases de datos y SQL.</description>
+      <link>https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/base_de_datos.html</link>
+      <author>mobema_aliema24@iesmedinaazahara.es</author>
+      <category>base de datos</category>
+      <pubDate>Wed, 20 Mar 2024 12:40:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Lenguaje de Marcas</title>
+      <description>Estudio sobre HTML, XML y otras tecnologías de marcado.</description>
+      <link>https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/lenguaje_de_marcas.html</link>
+      <author>mobema_aliema24@iesmedinaazahara.es</author>
+      <category>lenguaje de marcas</category>
+      <pubDate>Wed, 20 Mar 2024 12:45:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Implantación de Sistemas Operativos</title>
+      <description>Instalación, configuración y administración de sistemas operativos.</description>
+      <link>https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/implantacion_de_sistemas_operativos.html</link>
+      <author>mobema_aliema24@iesmedinaazahara.es</author>
+      <category>sistemas operativos</category>
+      <pubDate>Wed, 20 Mar 2024 12:50:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Datos Personales</title>
+      <description>Información sobre mí, mis estudios y proyectos.</description>
+      <link>https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/datos_personales.html</link>
+      <author>mobema_aliema24@iesmedinaazahara.es</author>
+      <category>datos personales</category>
+      <pubDate>Wed, 20 Mar 2024 12:55:00 +0100</pubDate>
+    </item>
+
+  </channel>
+</rss>
+
