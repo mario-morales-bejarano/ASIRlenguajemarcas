@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Portfolio de Mario Morales</title>
+  <link href="https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/"/>
+  <updated>2024-03-20T12:15:00+01:00</updated>
+  <author>
+    <name>Mario Morales</name>
+    <email>mobema_aliema24@iesmedinaazahara.es</email>
+  </author>
+  <id>https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/</id>
+
+  <entry>
+    <title>Fundamentos del Hardware</title>
+    <link href="https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/fundamentos_del_hardware.html"/>
+    <id>fundamentos-hardware</id>
+    <updated>2024-03-20T12:30:00+01:00</updated>
+    <summary>Sección dedicada a los conceptos básicos de hardware en ASIR.</summary>
+  </entry>
+
+  <entry>
+    <title>Redes</title>
+    <link href="https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/redes.html"/>
+    <id>redes</id>
+    <updated>2024-03-20T12:35:00+01:00</updated>
+    <summary>Información sobre redes de computadoras, protocolos y configuración.</summary>
+  </entry>
+
+  <entry>
+    <title>Base de Datos</title>
+    <link href="https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/base_de_datos.html"/>
+    <id>base-datos</id>
+    <updated>2024-03-20T12:40:00+01:00</updated>
+    <summary>Conceptos fundamentales sobre bases de datos y SQL.</summary>
+  </entry>
+
+  <entry>
+    <title>Lenguaje de Marcas</title>
+    <link href="https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/lenguaje_de_marcas.html"/>
+    <id>lenguaje-marcas</id>
+    <updated>2024-03-20T12:45:00+01:00</updated>
+    <summary>Estudio sobre HTML, XML y otras tecnologías de marcado.</summary>
+  </entry>
+
+  <entry>
+    <title>Implantación de Sistemas Operativos</title>
+    <link href="https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/implantacion_de_sistemas_operativos.html"/>
+    <id>sistemas-operativos</id>
+    <updated>2024-03-20T12:50:00+01:00</updated>
+    <summary>Instalación, configuración y administración de sistemas operativos.</summary>
+  </entry>
+
+  <entry>
+    <title>Datos Personales</title>
+    <link href="https://mario-morales-bejarano.github.io/ASIRlenguajemarcas/paginas/datos_personales.html"/>
+    <id>datos-personales</id>
+    <updated>2024-03-20T12:55:00+01:00</updated>
+    <summary>Información sobre mí, mis estudios y proyectos.</summary>
+  </entry>
+</feed>
