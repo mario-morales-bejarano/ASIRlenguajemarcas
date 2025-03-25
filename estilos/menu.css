@@ -78,8 +78,6 @@ body {
 .menu-item:hover .dodecahedron {
     transform: rotate(15deg) scale(1.1);
     background-color: #2980b9;
-    background-image: href="../imagen/redes.jpeg"
-   
 }
 .menu-item1:hover .dodecahedron {
     transform: rotate(-15deg) scale(1.1); 
