@@ -1,81 +1,92 @@
-
+/* Estilo general */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-image: url(https://images.unsplash.com/photo-1663970206579-c157cba7edda?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwcGFyYSUyMHBjfGVufDB8fDB8fHww);  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0;
     font-family: Arial, sans-serif;
+    min-height: 100vh;
 }
 
-
+/* Título principal */
 #titulop {
-    height: 50px;
     color: whitesmoke;
     text-decoration: underline;
     background-color: lightsteelblue;
     padding: 20px;
     text-align: center; 
     border-radius: 10px;
-    box-shadow:  2px 2px 10px rgba(2, 2, 2, 1.2);
-    margin: 0 auto;
+    box-shadow: 2px 2px 10px rgba(2, 2, 2, 1.2);
+    margin: 20px auto;
+    max-width: 90%;
+    font-size: 28px;
 }
 
-
+/* Subtítulo */
 #subtitulo {
     text-align: center;
     color: white;
     font-size: 20px;
     margin-top: 10px;
     font-weight: bold;
-    text-shadow: 5px 5px 10px rgba(100, 100, 100, 100);
+    text-shadow: 5px 5px 10px rgba(100, 100, 100, 1);
 }
 
-
+/* Header (centrado vertical) */
 header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 80vh;
+    padding: 20px;
+    text-align: center;
 }
 
-
+/* Párrafos */
 p {
     margin: 10px;
+    color: white;
+    font-size: 18px;
 }
 
-
+/* Enlace */
 #enlace {
     font-size: 18px;
     color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
     margin-top: 20px;
+    display: inline-block;
+    transition: text-shadow 0.3s ease;
 }
 
 #enlace:hover {
-    color: whitesmoke;
     text-shadow: 2px 2px 10px rgba(100, 100, 100, 0.7);
 }
 
-
+/* Iconos sociales */
 .social-icons {
     position: fixed; 
     top: 20px; 
     right: 20px; 
     display: flex;
+    flex-wrap: wrap;
     gap: 15px; 
     z-index: 1000; 
 }
 
-.social-icon {
+.social-icon, .rss-icon .fa-rss {
     font-size: 30px; 
     color: mediumpurple; 
     transition: color 0.3s ease, transform 0.3s ease; 
 }
-
 
 .social-icon:hover {
     color: lightblue; 
@@ -83,13 +94,57 @@ p {
 }
 
 .rss-icon .fa-rss {
-    color: orange; /* Color típico de RSS */
-    font-size: 30px;
-    transition: color 0.3s ease, transform 0.3s ease;
+    color: orange;
 }
 
 .rss-icon .fa-rss:hover {
     color: darkorange;
     transform: scale(1.2);
 }
+
+/* Responsive: tablets y móviles */
+@media (max-width: 768px) {
+    #titulop {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    #subtitulo {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .social-icons {
+        top: 10px;
+        right: 10px;
+        gap: 10px;
+    }
+
+    .social-icon, .rss-icon .fa-rss {
+        font-size: 26px;
+    }
+
+    #enlace {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #titulop {
+        font-size: 20px;
+    }
+
+    #subtitulo {
+        font-size: 16px;
+    }
+
+    .social-icons {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
 
