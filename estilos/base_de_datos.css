@@ -1,3 +1,10 @@
+/* Estilo base y reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -6,23 +13,28 @@ body {
     text-align: center;
 }
 
+/* Cabecera */
 header {
     background-color: #3498db;
     color: white;
-    padding: 20px 0;
+    padding: 20px;
     font-size: 24px;
 }
 
+/* Iconos sociales */
 .social-icons {
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .social-icon {
     font-size: 24px;
     color: white;
-    margin: 0 10px;
-    transition: transform 0.3s ease;
     text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-icon:hover {
@@ -30,6 +42,7 @@ header {
     color: #f1c40f;
 }
 
+/* Contenido principal */
 main {
     padding: 20px;
 }
@@ -41,14 +54,19 @@ main {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
+/* Imágenes */
 .imagen-apartado {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px auto;
 }
 
+/* Botón volver */
 .boton-volver {
     display: inline-block;
     margin-top: 20px;
@@ -62,3 +80,39 @@ main {
 
 .boton-volver:hover {
     background-color: #2980b9;
+}
+
+/* Diseño adaptativo */
+@media (max-width: 768px) {
+    header {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .contenido {
+        padding: 15px;
+    }
+
+    .social-icon {
+        font-size: 20px;
+    }
+
+    .boton-volver {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 18px;
+    }
+
+    .contenido {
+        padding: 10px;
+    }
+
+    .boton-volver {
+        width: 100%;
+    }
+}
