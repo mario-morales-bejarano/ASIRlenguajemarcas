@@ -77,5 +77,31 @@ header h1 {
     }
 }
 
+.volver-contenedor {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
+.boton-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
 
+.boton-volver:hover {
+    background-color: #2980b9;
+}
+
+.menu-item img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.menu-item span {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
