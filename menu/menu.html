@@ -1,80 +1,36 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
-    color: white;
-    min-height: 100vh;
-}
-
-header {
-    text-align: center;
-    padding: 30px 20px;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-header h1 {
-    font-size: 2.5rem;
-}
-
-.menu-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 20px;
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.menu-item {
-    display: flex;
-    flex-direction: column;
-    background: white;
-    color: black;
-    border-radius: 12px;
-    overflow: hidden;
-    text-decoration: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    height: 300px;
-}
-
-.menu-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
-}
-
-.menu-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.menu-item span {
-    padding: 15px;
-    font-weight: bold;
-    text-align: center;
-    background: #f0f0f0;
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 1.8rem;
-    }
-
-    .menu-item span {
-        font-size: 14px;
-        padding: 10px;
-    }
-}
-
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Asignaturas</title>
+    <link rel="stylesheet" href="../estilos/menu.css">
+</head>
+<body>
+    <header>
+        <h1>Asignaturas ASIR</h1>
+    </header>
+    <main class="menu-grid">
+        <a href="../paginas/lenguaje_de_marcas.html" class="menu-item">
+            <img src="../imagen/lenguaje-marcas.jpeg" alt="Lenguaje de marcas">
+            <span>Lenguaje de marcas</span>
+        </a>
+        <a href="../paginas/redes.html" class="menu-item">
+            <img src="../imagen/redes.jpeg" alt="Redes">
+            <span>Redes</span>
+        </a>
+        <a href="../paginas/fundamentos_del_hardware.html" class="menu-item">
+            <img src="../imagen/fundamentos-hardware.jpg" alt="Fundamentos del hardware">
+            <span>Fundamentos del hardware</span>
+        </a>
+        <a href="../paginas/implantacion_de_sistemas_operativos.html" class="menu-item">
+            <img src="../imagen/sistemas.jpeg" alt="Sistemas operativos">
+            <span>Sistemas operativos</span>
+        </a>
+        <a href="../paginas/base_de_datos.html" class="menu-item">
+            <img src="../imagen/base-datos.jpg" alt="Base de datos">
+            <span>Base de datos</span>
+        </a>
+    </main>
+</body>
+</html>
